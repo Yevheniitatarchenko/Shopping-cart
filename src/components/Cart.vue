@@ -85,14 +85,6 @@
 				});
 				return total;
 			},
-			/* sortedProducts() {
-     		return this.productsInCart.slice().sort((a,b,date) => {
-       		return new Date(b.date) - new Date(a.date)
-				 })
-				 С датой не получилось, так не понял как ее затянуть в json_file. 
-				 И я сделал просто products.js/
-				 Дата, то приходит текущая из сервера, насколько я знаю.
-    	}, */
 			empty(){
 				return this.productsInCart.length === 0;
 			},
