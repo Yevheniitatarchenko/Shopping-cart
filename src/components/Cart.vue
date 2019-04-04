@@ -95,9 +95,6 @@
 				removeQty: 'removeQty',
 				removeProduct: 'removeProduct'
 			}),
-			updateQty (e) {
-				this.$store.commit('cart/updateQty', e.target.value)
-			}
 		}	
 	}
 </script>
